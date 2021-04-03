@@ -8,55 +8,81 @@
 }
 
 .top{
-    padding: 5%;
-    width: 100%;
-    background-color: #920000;
-    text-align: center;
+   border: 10px rgb(43, 62, 228);
+   padding: 30 px;
+   margin: 5px;
+   background-color: rgb(43, 62, 228);
 }
 
-.topright{
-    width:50%;
-    float:left;
-    padding:10px;
-}
-
-.top:after{ 
-    content: "";
-    display: table;
-    clear: all;
-}
-.menu {
-  float:left;
-  width:100%;
-  text-align:center;
-}
-.menu a {
-  background-color:#743131;
-  padding:30%;
-  margin-top:7px;
-  display:block;
-  width:100%;
-  color:rgb(255, 255, 255);
-}
-.main {
-  float:left;
-  width:60%;
-  padding:0 20px;
-}
-.right {
-  background-color:#920000;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
-}
-@media (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
+@media (min-width: 1024px){
+  .topright{
+    display: flex;
   }
 }
 
+.container{
+  max-width: 1014px;
+}
+
+.flag{
+  padding: .5%;
+}
+
+.three{
+  display: flex;
+}
+
+.one1{
+  border: 10px rgb(228, 225, 43);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 225, 43);
+}
+
+.two2{
+  border: 10px rgb(228, 225, 43);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 225, 43);
+}
+
+.three3{
+  border: 10px rgb(228, 225, 43);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 225, 43);
+}
+
+.bottom{
+  display: flex;
+}
+
+.bottom1{
+  border: 10px rgb(228, 12, 12);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 12, 12);
+}
+
+.bottom2{
+  border: 10px rgb(228, 12, 12);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 12, 12);
+}
+
+.bottom3{
+  border: 10px rgb(228, 12, 12);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 12, 12);
+}
+.bottom4{
+  border: 10px rgb(228, 12, 12);
+  padding: 30 px;
+  margin: 5px;
+  background-color: rgb(228, 12, 12);
+}
 
 </style>
 </html>
